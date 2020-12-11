@@ -1,0 +1,65 @@
+body{
+    background: url(images/bio1.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+header{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+h2{
+    float: left;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    float: right;
+}
+li{
+    display: inline;
+    padding: 1rem;
+}
+li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.active1{
+    color: gold;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+
+}
+.btn{
+    background-color:goldenrod;
+    color: #ffffff;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 45%;
+}
+.bio{
+    width: 500px;
+    background-color: rgba(0, 5, 0, 0.26);
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    margin-top: 3%;
+    color: #ffffff;
+    font-family: serif;
+    border: 4px;
+}
+.bio-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.bio-h1{
+    font-family: cursive;
+}
